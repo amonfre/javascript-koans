@@ -7,7 +7,7 @@ var _; //globals
  */
 describe("About Higher Order Functions", function () {
 
-  it("should use filter to return array items that meet a criteria", function () {
+  it("should use to return array items that meet a criteria", function () {
     var numbers = [1,2,3];
     var odd = numbers.filter(function (x) { return x % 2 !== 0 });
 
